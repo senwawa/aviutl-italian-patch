@@ -1,6 +1,11 @@
 # aviutl-italian-patch
 Traduzione italiana per AviUtl, i file originalmente non erano miei, li ho solo presi da un altra repository per poi modificarli e tradurli.
 Repositoy Originale: https://github.com/sykhro/aviutl-english-patch
+Per favore tenere in considerazione che sto ancora traducendo tutto il file, ci vorrà un bel po, abbiate pazienza per favore
 
-Italian translation for AviUtl, the files originally werent mine, i only took them from another repository to then modify and translate them.
-Original Repository: https://github.com/sykhro/aviutl-english-patch
+## compila.bat
+Per usare il **compila.bat** bisogna prima modificarlo:
+
+![immagine](https://github.com/user-attachments/assets/8e1094d3-6113-4290-be29-66602edb5c92)
+
+Si devono rimpiazzare tutti i "**Rimpiazzami**" con dei percorsi veri.
