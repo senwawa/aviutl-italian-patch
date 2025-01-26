@@ -5,7 +5,7 @@ Per favore tenere in considerazione che sto ancora traducendo tutto il file, ci 
 
 ## compila.bat
 Per usare il **compila.bat** bisogna prima modificarlo:
+Si devono rimpiazzare tutti i "**Rimpiazzami**" con dei percorsi veri.
 
 ![immagine](https://github.com/user-attachments/assets/8e1094d3-6113-4290-be29-66602edb5c92)
 
-Si devono rimpiazzare tutti i "**Rimpiazzami**" con dei percorsi veri.
