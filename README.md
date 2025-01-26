@@ -3,7 +3,7 @@ Traduzione italiana per AviUtl, i file originalmente non erano miei, li ho solo 
 Repositoy Originale: https://github.com/sykhro/aviutl-english-patch
 Per favore tenere in considerazione che sto ancora traducendo tutto il file, ci vorrà un bel po, abbiate pazienza per favore
 
-[Need the English readme?](https://github.com/senwawa/aviutl-italian-patch/blob/main/README-EN.md)
+[Need the English readme?](https://github.com/senwawa/aviutl-italian-patch/blob/master/README-EN.md)
 
 ## compila.bat
 Per usare il **compila.bat** bisogna prima modificarlo:
