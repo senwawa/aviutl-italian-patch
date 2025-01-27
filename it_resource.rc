@@ -1,6 +1,6 @@
 #include <winresrc.h>
 
-LANGUAGE LANG_ITALIAN, SUBLANG_ENGLISH_US
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
 
 AVIUTL MENU
 BEGIN
@@ -532,15 +532,15 @@ BEGIN
     PUSHBUTTON      "Reset",32700,276,196,52,14,BS_CENTER
 END
 
-LANG DIALOGEX 0, 0, 128, 80
+LANG DIALOGEX 0, 0, 313, 50
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 CAPTION "Lingua"
 FONT 9, "Segoe UI", 0, 0, 0x0
 BEGIN
-    PUSHBUTTON      "OK",1,8,32,52,14,BS_CENTER
-    PUSHBUTTON      "Annulla",2,68,32,52,14,BS_CENTER
-    COMBOBOX        32500,8,8,112,128,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
-    LTEXT           "Il cambio di lingua avra effetto dopo un riavvio",-1,16,55,96,16,SS_CENTER
+    PUSHBUTTON      "OK",1,195,30,52,14,BS_CENTER
+    PUSHBUTTON      "Annulla",2,253,30,52,14,BS_CENTER
+    COMBOBOX        32500,8,8,298,68,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Il cambio di lingua avra effetto dopo un riavvio",-1,9,33,170,16,SS_LEFT
 END
 
 LOAD_OPTION DIALOGEX 0, 0, 370, 72
@@ -762,7 +762,7 @@ END
 
 STRINGTABLE
 BEGIN
-    0                       "Italiano"
+    0                       "it_mod.aul by Sen"
     1                       "Mod Italiana per AviUtl v1.00 da Sen"
     10                      "Default"
     11                      "Auto"
