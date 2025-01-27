@@ -15,5 +15,5 @@ For people that don't speak Italian, this is a file to compile the .rc file.
 To use **compila.bat**, you must first modify it: 
 You need to replace all the "**Rimpiazzami**" with actual paths.
 
-![immagine](https://github.com/user-attachments/assets/8e1094d3-6113-4290-be29-66602edb5c92)
+![immagine](https://github.com/user-attachments/assets/8e79237b-fede-4340-b312-072490378913)
 
