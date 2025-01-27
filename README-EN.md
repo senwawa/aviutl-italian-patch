@@ -7,6 +7,9 @@ Please note that I am still translating the entire file, it will take some time,
 
 [Hai bisogno del readme in Italiano?](https://github.com/senwawa/aviutl-italian-patch/blob/master/README.md)
 
+## aviutl_it.exe
+It actually changes almost nothing from the original, it only translates AviUtl's version info.
+
 ## compila.bat
 **Keep in mind that this file is in Italian, i will make an English version eventually**
 
