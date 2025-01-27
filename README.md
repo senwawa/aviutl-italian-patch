@@ -7,6 +7,9 @@ Per favore tenere in considerazione che sto ancora traducendo tutto il file, ci 
 
 [Need the English readme?](https://github.com/senwawa/aviutl-italian-patch/blob/master/README-EN.md)
 
+## aviutl_it.exe
+In realtà non cambia quasi nulla dall'originale, traduce solo le info della versione di AviUtl.
+
 ## compila.bat
 Per usare il **compila.bat** bisogna prima modificarlo:
 
