@@ -195,7 +195,7 @@ BEGIN
             MENUITEM "Resetta profilo",               8000
         END
     END
-    POPUP "Window"
+    POPUP "Finestra"
     BEGIN
         POPUP "Ingrandimento"
         BEGIN
@@ -228,11 +228,11 @@ BEGIN
     BEGIN
         MENUITEM "Informazioni file",                        1006
         MENUITEM "Sovrapposizioni attivate",           104
-        MENUITEM "Filtri",               101
+        MENUITEM "Plugin e Filtri",               101
         MENUITEM "Plugin per importazione",               103
         MENUITEM "Plugin di esportazione",               105
         MENUITEM "Color conversion plugins",     110
-        MENUITEM "Patch lingue",          107
+        MENUITEM "Lingue",          107
         MENUITEM SEPARATOR
         MENUITEM "Versione",                     100
     END
@@ -240,17 +240,17 @@ END
 
 PLAY MENU
 BEGIN
-    POPUP "Playback"
+    POPUP "Riproduzione"
     BEGIN
-        MENUITEM "Play/Pause",                  105
+        MENUITEM "Riproduci/Pausa",                  105
         MENUITEM "Stop",                        101
         MENUITEM SEPARATOR
-        MENUITEM "Play selection",              107
+        MENUITEM "Riproduci selezione",              107
         MENUITEM "Loop",                        103
     END
     POPUP "Display"
     BEGIN
-        POPUP "Resolution"
+        POPUP "Risoluzione"
         BEGIN
             MENUITEM "25%",                         117
             MENUITEM "50%",                         110
@@ -259,13 +259,13 @@ BEGIN
             MENUITEM "640x480",                     113
             MENUITEM "320x240",                     114
             MENUITEM "160x120",                     115
-            MENUITEM "WindowSize",                  116
+            MENUITEM "Grandezza finestra",                  116
             MENUITEM SEPARATOR
-            MENUITEM "Maximize",                    109
+            MENUITEM "Massimizza",                    109
         END
         MENUITEM SEPARATOR
-        MENUITEM "Disable video overlay",       104
-        MENUITEM "Show overlay",                106
+        MENUITEM "Disabilita sovrapposizione video",       104
+        MENUITEM "Mostra sovrapposizione",                106
     END
 END
 
@@ -282,14 +282,14 @@ CONTEXT_TOOL MENU
 BEGIN
     POPUP "context"
     BEGIN
-        MENUITEM "1 Column",                    100
-        MENUITEM "2 Column",                    101
-        MENUITEM "3 Column",                    102
-        MENUITEM "4 Column",                    103
+        MENUITEM "1 Colonna",                    100
+        MENUITEM "2 Colonne",                    101
+        MENUITEM "3 Colonne",                    102
+        MENUITEM "4 Colonne",                    103
         MENUITEM SEPARATOR
-        MENUITEM "Show icons",                  110
-        MENUITEM "Show basic settings",         111
-        MENUITEM "Show filters",                112
+        MENUITEM "Mostra icone",                  110
+        MENUITEM "Mostra impostazioni base",         111
+        MENUITEM "Mostra filtri",                112
     END
 END
 
@@ -297,7 +297,7 @@ CONTEXT MENU
 BEGIN
     POPUP "context"
     BEGIN
-        POPUP "Magnification"
+        POPUP "Magnificazione"
         BEGIN
             MENUITEM "25%",                         9200
             MENUITEM "50%",                         9201
@@ -307,17 +307,17 @@ BEGIN
             MENUITEM "400%",                        9205
         END
         MENUITEM SEPARATOR
-        MENUITEM "Copy",                        1020
-        MENUITEM "Paste",                       5117
-        MENUITEM "Copy to clipboard",           1026
-        MENUITEM "Paste from clipboard",        5123
-        MENUITEM "Copy rendered Image to clipboard", 1070
-        MENUITEM "Delete selection",            5101
+        MENUITEM "Copia",                        1020
+        MENUITEM "Incolla",                       5117
+        MENUITEM "Copia negli appunti",           1026
+        MENUITEM "Incolla dagli appunti",        5123
+        MENUITEM "Copia immagine renderizzata agli appunti", 1070
+        MENUITEM "Cancella selezione",            5101
         MENUITEM SEPARATOR
-        MENUITEM "Undo",                        5147
-        MENUITEM "Select all",                  5112
+        MENUITEM "Annulla",                        5147
+        MENUITEM "Seleziona tutto",                  5112
         MENUITEM SEPARATOR
-        MENUITEM "Mark",                        5130
+        MENUITEM "Segna",                        5130
     END
 END
 
@@ -325,8 +325,8 @@ CONTEXT2 MENU
 BEGIN
     POPUP "context"
     BEGIN
-        MENUITEM "Toggle filter",               13000
-        MENUITEM "Reset parameters",            13001
+        MENUITEM "Attiva/Disattiva filtro",               13000
+        MENUITEM "Reimposta parametri",            13001
     END
 END
 
@@ -334,16 +334,16 @@ CONTEXT3 MENU
 BEGIN
     POPUP "context"
     BEGIN
-        MENUITEM "Copy",                        1020
-        MENUITEM "Paste",                       5117
-        MENUITEM "Copy to clipboard",           1026
-        MENUITEM "Paste from clipboard",        5123
-        MENUITEM "Delete",                      5101
-        MENUITEM "Undo",                        5147
-        MENUITEM "Select all",                  5112
-        MENUITEM "Invert selection",            5152
+        MENUITEM "Copia",                        1020
+        MENUITEM "Incolla",                       5117
+        MENUITEM "Copia da appunti",           1026
+        MENUITEM "Incolla da appunti",        5123
+        MENUITEM "Cancella",                      5101
+        MENUITEM "Annulla",                        5147
+        MENUITEM "Seleziona tutto",                  5112
+        MENUITEM "Inverti selezione",            5152
         MENUITEM SEPARATOR
-        MENUITEM "Mark",                        5130
+        MENUITEM "Segna",                        5130
     END
 END
 
@@ -351,15 +351,15 @@ CONTEXT4 MENU
 BEGIN
     POPUP "context"
     BEGIN
-        MENUITEM "Move to playing frame",       108
+        MENUITEM "Sposta al fotogramma che sta essendo riprodotto",       108
         MENUITEM SEPARATOR
-        MENUITEM "Play/Pause",                  105
+        MENUITEM "Riproduci/Pausa",                  105
         MENUITEM "Stop",                        101
         MENUITEM SEPARATOR
-        MENUITEM "Play selection",              107
+        MENUITEM "Riproduci selezione",              107
         MENUITEM "Loop",                        103
         MENUITEM SEPARATOR
-        POPUP "Resolution"
+        POPUP "Risoluzione"
         BEGIN
             MENUITEM "25%",                         117
             MENUITEM "50%",                         110
@@ -368,9 +368,9 @@ BEGIN
             MENUITEM "640x480",                     113
             MENUITEM "320x240",                     114
             MENUITEM "160x120",                     115
-            MENUITEM "WindowSize",                  116
+            MENUITEM "Grandezza della finestra",                  116
             MENUITEM SEPARATOR
-            MENUITEM "Maximize",                    109
+            MENUITEM "Massimizza",                    109
         END
     END
 END
@@ -771,25 +771,25 @@ BEGIN
     14                      "min"
     15                      "hr"
 
-    16                      "Deinterlace"
-    17                      "Odd"
-    18                      "Even"
+    16                      "Deinterlaccia"
+    17                      "Dispari"
+    18                      "Pari"
     19                      "Bob"
-    21                      "Auto"
+    21                      "Automatico"
     22                      "Auto 24fps"
     23                      "Standard"
-    24                      "Invert"
-    25                      "Period"
-    26                      "Unknown"
-    27                      "Exporting"
-    28                      "Estimating"
-    29                      "Searching"
-    30                      "Remaining"
-    31                      "Not recompressible"
+    24                      "Inverti"
+    25                      "Periodo"
+    26                      "Sconosciuto"
+    27                      "Esportazione"
+    28                      "Stima"
+    29                      "Cercando"
+    30                      "Rimanente"
+    31                      "Non ricompattabile"
 
-    32                      "Not compressed"
-    33                      "No fps change"
-    34                      "Resolution"
+    32                      "Non compresso"
+    33                      "Nessun cambio di framerate"
+    34                      "Risoluzione"
     35                      "Time lapsed"
     36                      "Framerate"
     37                      "Frame count"
@@ -849,12 +849,12 @@ BEGIN
     94                      "Denoise"
     95                      "Denoise (temporal)"
 
-    96                      "Playback window"
-    97                      "Change framerate"
-    98                      "Framerate settings"
-    99                      "Use Auto 24fps for 24fps←30fps conversion"
-    100                     "Change size"
-    101                     "Set size"
+    96                      "Finestra di riproduzione"
+    97                      "Cambia framerate"
+    98                      "Impostazioni framerate"
+    99                      "Usa 24fps Automatico per fare conversione 30fps a 24fps"
+    100                     "Cambia risoluzione"
+    101                     "Manuale"
     102                     "Sharpening"
     105                     "Consecutive BmpFile (*.bmp)|*.bmp"
     106                     "Tool window"
@@ -882,9 +882,9 @@ BEGIN
     133                     "Close AviUtl"
     134                     "Batch export list"
     135                     "[Export filename not set]"
-    136                     "Color conversion..."
-    137                     "[ Import ]"
-    138                     "[ Export ]"
+    136                     "Conversione colori"
+    137                     "[ Importa ]"
+    138                     "[ Esporta ]"
     139                     "Append"
     140                     "Import Audio"
     141                     "[Project] Open"
@@ -924,18 +924,18 @@ BEGIN
     1024                    "Only a max of %d files can be joint."
     1025                    "A proper file may not be produced without recompression. Proceed?"
     1026                    "Missing export plugin"
-    1028                    "File info"
-    1029                    "Filter plugins"
-    1030                    "Import plugins"
-    1031                    "Export plugins"
-    1032                    "Overlay info"
-    1033                    "Version info"
-    1034                    "Language info"
+    1028                    "Informazioni sul file"
+    1029                    "Informazioni sui plugin e filtri"
+    1030                    "Informazioni su i plugin di importazione"
+    1031                    "Informazioni su i plugin di esportazione"
+    1032                    "Informazioni sovrapposizioni"
+    1033                    "Informazioni versione"
+    1034                    "Informazioni lingue"
     1035                    "Insufficient memory"
     1036                    "Some items failed during batch export."
     1037                    "Delete all?"
     1038                    "Failed importing file.\n\nFile format is either not supported or\nthe relevant codec or plugin\nis not being registered."
-    1039                    "File export failed."
+    1039                    "Esportazione file fallita."
 
     1040                    "Press [START] to begin batch export"
     1041                    "All tasks completed normally"
